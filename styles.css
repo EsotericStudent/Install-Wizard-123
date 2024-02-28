@@ -1,0 +1,56 @@
+/* User Stylesheet Overrides */
+* {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: rgb(197, 211, 214);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0px;
+}
+
+/* Multi Stage Form Styling */
+.multi-step-form {
+  display: flex;
+  border: solid white;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  max-width: fit-content;
+  box-shadow: 1px 16px 21px 0px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 1px 16px 21px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 1px 16px 21px 0px rgba(0,0,0,0.2);
+}
+
+.main-navigasjon {
+  background-color: cornflowerblue;
+  min-width: 60px;
+  padding: 10px;
+}
+
+.choice-box {}
+
+.navgation {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.step {
+  display: none;
+}
+
+.current-step {
+  display: unset;
+}
